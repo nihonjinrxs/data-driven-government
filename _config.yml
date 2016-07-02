@@ -1,5 +1,5 @@
 markdown: redcarpet
-name: 18F Guides Template
+name: Data-Driven Government Toolkit
 exclude:
 - CONTRIBUTING.md
 - Gemfile
@@ -17,13 +17,13 @@ sass:
   style: :compressed
 
 # Author/Organization info to be displayed in the templates
-author:
-  name: 18F
-  url: https://18f.gsa.gov
+author: Data Community DC membership & collaborators
+  name: Data Community DC
+  url: https://datacommunitydc.org
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
-logourl: /assets/img/18f-logo.png
-logoalt: 18F logo
+logourl: /assets/img/dc2-logo.png
+logoalt: Data Community DC logo
 
 # To expand all navigation bar entries by default, set this property to true:
 expand_nav: true
@@ -61,15 +61,16 @@ navigation:
   internal: true
 
 repos:
-- name: Guides Template
+- name: Data-Driven Government Toolkit
   description: Main repository
+  url: https://github.com/nihonjinrxs/data-driven-government-toolkit
+- name: 18F Guides Template
+  description: Upstream repository
   url: https://github.com/18F/guides-template
 
 back_link:
-  url: "https://pages.18f.gov/guides/"
-  text: Read more 18F Guides
-
-google_analytics_ua: UA-48605964-19
+  url: "https://datacommunitydc.org"
+  text: More Data Community DC content
 
 collections:
   pages:
